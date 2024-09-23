@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#051D40"
+    tools:context=".Admin">
+
+
+    <EditText
+        android:id="@+id/catgory"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/lavender_border"
+        android:drawableStart="@drawable/baseline_category_24"
+        android:drawablePadding="8dp"
+        android:hint="Category"
+        android:padding="8dp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/mobilenumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hospitalname" />
+
+    <EditText
+        android:id="@+id/hospitalname"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="187dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="42dp"
+        android:background="@drawable/lavender_border"
+        android:drawableLeft="@drawable/baseline_local_hospital_24"
+        android:drawablePadding="8dp"
+        android:hint="Hospital Name"
+        android:padding="8dp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/catgory"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mobilenumber"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/lavender_border"
+        android:drawableLeft="@drawable/baseline_add_ic_call_24"
+        android:drawablePadding="8dp"
+        android:hint="Contact No"
+        android:inputType="number"
+        android:padding="8dp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catgory" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/lavender_border"
+        android:drawableLeft="@drawable/baseline_add_location_24"
+        android:drawablePadding="8dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/registerBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mobilenumber" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="96dp"
+        android:text="NEXT-->"
+        android:backgroundTint="#8692F7"
+        android:textSize="18sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

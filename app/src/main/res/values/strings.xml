@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MEDI CONNECT</string>
+    <string name="no_pdf_file_selected_yet">No PDF File Selected yet !</string>
+    <string name="google_maps_api_key">AIzaSyCSRiVN6O0iV6qzmPl7SQH9-jKuU-HKfIU</string>
+    <string name="schedule_notification">su</string>
+</resources>

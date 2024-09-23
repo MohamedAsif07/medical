@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1096269966112",
+    "project_id": "patch-work",
+    "storage_bucket": "patch-work.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096269966112:android:20fe2154e8953026e1c545",
+        "android_client_info": {
+          "package_name": "com.hardware.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVmg2SaeDrJnD_9298xlDZshhZSLwx-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096269966112:android:7527dc1a70a97d83e1c545",
+        "android_client_info": {
+          "package_name": "com.road.patchwork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFVmg2SaeDrJnD_9298xlDZshhZSLwx-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

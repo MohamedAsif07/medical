@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#051D40"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/loginmain"
+        android:layout_width="211dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="194dp"
+        android:backgroundTint="@color/white"
+        android:text="User Login"
+        android:textColor="@color/black"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie1"
+        android:layout_width="442dp"
+
+        android:layout_height="469dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="204dp"
+        android:elevation="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/ani4" />
+
+    <Button
+        android:id="@+id/signupmain"
+        android:layout_width="211dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/white"
+        android:text="Admin Login"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="409dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/loginmain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
